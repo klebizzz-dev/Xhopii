@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+
+
+/*Cabeçalho*/
+
+header{
+    height: 80px;
+    background-color: rgba(170, 162, 162, 0.164);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20%;
+
+    .marca-dagua{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        img{
+            width: 60px;
+            object-fit: contain;
+        }
+
+        h1{
+            color: rgb(217, 94, 63);
+            font-size: 25px;
+        }
+    }
+
+    .ajuda{
+
+        a{
+            text-decoration: none;
+            color: rgb(217, 94, 63);
+        }
+
+
+    }
+}
+
+/*Seção Login*/
+
+.login{
+    background-color: rgb(217, 94, 63);
+    width: 100%;
+    height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    .login-aba{
+        width: 25%;
+        height: 90%;
+        background-color: #ffffff;
+        border-radius: 5px;
+        padding: 15px;
+
+        h2{
+            text-align: center;
+        }
+
+        .login-labels{
+
+        }
+
+        .links-secundarios{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px 20px;
+            margin-top: 20px;
+
+            a{
+                text-decoration: none;
+                color: #0000ff;
+            }
+        }
+
+        .separador{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+
+            hr{
+                width: 100%;
+            }
+        }
+        
+        .login-redes{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 0 20px;
+            
+            a{
+                text-decoration: none;
+            }
+            
+            button{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                width: 120px;
+                gap: 5px;
+                border: 1px solid rgba(128, 128, 128, 0.329);
+                border-radius: 5px;
+                background-color: #ffffff;
+                cursor: pointer;
+            }
+
+            img{
+                width: 30px;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+footer{
+    background-color: rgba(170, 162, 162, 0.164);
+    padding: 0 150px;
+    flex: 1;
+
+    .roda-pe-info{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    h4{
+        margin-top: 50px;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+
+    }
+
+    ul li{
+        list-style: none;
+        line-height: 30px;
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .roda-pe-copy{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+#img-pagamento{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    img{
+        width: 50px;
+    }
+}
+
+#img-social{
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        gap: 0px;
+    }
+
+    li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p{
+            margin-left: 5px;
+            margin-top: 10px;
+        }
+    }
+
+    img{
+        width: 20px;
+    }
+}
+
+#img-qrcode{
+    img{
+        width: 70px;
+    }
+}
