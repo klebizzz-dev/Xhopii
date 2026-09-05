@@ -43,6 +43,28 @@ header{
     text-decoration: none;
 }
 
+.sair{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+    gap: 3px;
+    align-self: center;
+
+    img{
+        filter: brightness(0) saturate(100%) invert(99%) sepia(8%) saturate(117%) hue-rotate(161deg) brightness(113%) contrast(100%);
+        width: 30px;
+    }
+
+    a{
+        text-decoration: none;
+        cursor: pointer;
+        color: #ffffff;
+        font-size: 20px;
+    }
+}
+
 .login-button{
     display: flex;
     flex-direction: row;
@@ -57,6 +79,7 @@ header{
     padding: 10px;
     margin-top: 20px; 
     margin-right: 16px;
+    transition: 0.5s;
 
     p{
         color: #ffffff;
@@ -127,13 +150,13 @@ nav ul li a{
     color: rgb(217, 94, 63);
     padding: 15px;
     display: block;
+    transition: 0.3s;
 }
 
 nav ul li a:hover{
     color: rgb(215, 215, 215);
     background-color: rgb(217, 94, 63);
 }
-
 
 /*Camiseta exposta*/
 
@@ -199,6 +222,8 @@ nav ul li a:hover{
     padding: 10px;
     opacity: 80%;
     margin-right: 10px;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .container-direita ul li:hover{
@@ -211,6 +236,8 @@ nav ul li a:hover{
     border: none;
     background-color: rgb(217, 94, 63);
     color: white;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 #comprar:hover{
