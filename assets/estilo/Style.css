@@ -329,4 +329,55 @@ footer{
         width: 70px;
     }
 }
+.carrossel {
+    width: 80%;
+    margin: 25px auto;
+}
 
+.carrossel img {
+    height: 200px;
+    object-fit: contain;
+}
+
+.descobertas {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.descobertas h2 {
+    text-align: center;
+    color: #ee4d2d;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.grid-produtos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.produto {
+    text-decoration: none;
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: white;
+}
+
+.produto img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+.produto p {
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.produto strong {
+    display: block;
+    color: #ee4d2d;
+    font-size: 14px;
+}
