@@ -65,6 +65,65 @@ header{
     }
 }
 
+.login-button-index{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color:rgba(173, 216, 230, 0);
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 20px; 
+    margin-right: 16px;
+    transition: 0.5s;
+
+    p{
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 13px;
+    }
+
+    img{
+        object-fit: contain;
+        width: 30px;
+    }
+}
+
+.login-button-index:hover{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border: 3px solid rgb(217, 94, 63);
+    border-radius: 30px;
+    background-color: #ffffff;
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 20px; 
+    margin-right: 16px;
+    cursor: pointer;
+
+    p{
+        color: rgb(217, 94, 63);
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    img{
+        object-fit: contain;
+        width: 30px;
+        filter: brightness(0) saturate(100%) invert(50%) sepia(45%) saturate(2112%) hue-rotate(333deg) brightness(88%) contrast(92%);;
+    }
+}
+
+
 .login-button{
     display: flex;
     flex-direction: row;
@@ -126,7 +185,7 @@ header{
 
 nav{
     width: 100%;
-    background-color: rgb(215, 215, 215);
+    background-color:  rgb(250, 126, 25);
 }
 
 nav ul{
@@ -147,7 +206,7 @@ nav ul li a{
     font-size: 20px;
     text-align: center;
     text-decoration: none;
-    color: rgb(217, 94, 63);
+    color: #ffffff;
     padding: 15px;
     display: block;
     transition: 0.3s;
@@ -386,6 +445,17 @@ footer{
     color: #555;
     border: 1px solid #ddd;
     padding: 10px;
+    background-color: white;
+    box-shadow: 1px 12px 21px -8px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 1px 12px 21px -8px rgba(0, 0, 0, 0.54);
+    transition: 0.5s;
+}
+
+.produto:hover {
+    text-decoration: none;
+    color: #555;
+    border: 1px solid #ee4d2d;
+    padding: 20px;
     background-color: white;
     box-shadow: 1px 12px 21px -8px rgba(0, 0, 0, 0.54);
     -webkit-box-shadow: 1px 12px 21px -8px rgba(0, 0, 0, 0.54);
