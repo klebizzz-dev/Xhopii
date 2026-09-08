@@ -339,9 +339,32 @@ footer{
     object-fit: contain;
 }
 
+.banner-Xhopii{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+    
+    img{
+        object-fit: cover;
+        width: 100%;
+        margin-left: 35px;
+        padding: 0;
+        align-self: center;
+    }
+}
+
 .descobertas {
     width: 80%;
     margin: 30px auto;
+}
+
+.descobertas hr{
+    width: 100%;
+    color: #ee4d2d;
+    border-top: 2px solid #ee4d2d;
 }
 
 .descobertas h2 {
@@ -353,8 +376,9 @@ footer{
 
 .grid-produtos {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
 }
 
 .produto {
@@ -363,6 +387,8 @@ footer{
     border: 1px solid #ddd;
     padding: 10px;
     background-color: white;
+    box-shadow: 1px 12px 21px -8px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 1px 12px 21px -8px rgba(0, 0, 0, 0.54);
 }
 
 .produto img {
