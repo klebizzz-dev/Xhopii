@@ -12,7 +12,7 @@ Foi usado no desenvolvimento desse projeto:
 - HTML5
 - CSS3
 - JavaScript
-- Bootstrap
+- Bootstrap (apenas no carrossel)
 
 O projeto foi utilizado para o aprimoramento do uso do software de versionamento GIT, e as softskills de teamwork, troca de ideias, etc.
 
