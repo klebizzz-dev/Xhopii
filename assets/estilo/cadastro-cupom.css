@@ -166,16 +166,16 @@ nav ul li:hover{
 
 /*Seção Cadastro Cliente*/
 
-.Cadastro-cliente{
+.Cadastro-cupom{
     background-color: rgba(128, 128, 128, 0.63);
     width: 100%;
-    height: 1000px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
     
 
-    .Cadastro-cliente-aba{
+    .Cadastro-cupom-aba{
         width: 30%;
         height: 90%;
         background-color: #ffffff;
@@ -187,7 +187,7 @@ nav ul li:hover{
             color: rgb(217, 94, 63);
         }
 
-        .Cadastro-cliente-labels{
+        .Cadastro-cupom-labels{
             display: flex;
             flex-direction: column;
             align-items: center;

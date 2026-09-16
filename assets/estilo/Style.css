@@ -212,9 +212,71 @@ nav ul li a{
     transition: 0.3s;
 }
 
-nav ul li a:hover{
+nav ul li:hover{
     color: rgb(215, 215, 215);
     background-color: rgb(217, 94, 63);
+}
+
+/* Dropdown */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(216, 84, 54);
+    min-width: 200px;
+    padding: 0;
+    margin: 0;
+    z-index: 1000;
+    border-radius: 0 30px 30px 30px;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 12px 15px;
+    font-size: 16px;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: rgb(190, 75, 50);
+    color: rgb(215, 215, 215);
+}
+
+.dropdown-menu a:last-child {
+    border-radius: 0 0 30px 30px;
+    transition-behavior: none;
+}
+
+.dropdown-menu a:last-child:hover {
+    background-color: rgb(190, 75, 50);
+    color: rgb(215, 215, 215);
+    border-radius: 0 0 30px 30px;
+}
+
+.dropdown-menu a:first-child {
+    border-radius: 0 0 30px 30px;
+    transition-behavior: none;
+    transition: none;
+}
+
+.dropdown-menu a:first-child:hover {
+    background-color: rgb(190, 75, 50);
+    color: rgb(215, 215, 215);
+    border-radius: 0 30px 0 0;
+}
+
+/* Exibe o menu ao passar o mouse */
+
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 /*Camiseta exposta*/
