@@ -545,3 +545,72 @@ footer{
     margin-top: 2px;
 }
 */
+
+/* Pagina das pessoas */
+
+.grid-pessoas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.pessoa {
+    text-decoration: none;
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 1px 12px 21px -8px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 1px 12px 21px -8px rgba(0, 0, 0, 0.54);
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.pessoa-foto {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #f2f2f2;
+    padding: 12px;
+    border: 2px solid #eee;
+    margin-bottom: 12px;
+}
+
+.pessoa h3 {
+    font-size: 15px;
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.pessoa-info {
+    width: 100%;
+    text-align: left;
+}
+
+.pessoa-info p {
+    font-size: 12px;
+    margin: 4px 0;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.pessoa-info p span:first-child {
+    font-weight: 700;
+    color: #ee4d2d;
+    white-space: nowrap;
+}
+
+.pessoa-info p span:last-child {
+    text-align: right;
+    word-break: break-word;
+}
+
+.pessoa:hover {
+    border: 1px solid #ee4d2d;
+}
